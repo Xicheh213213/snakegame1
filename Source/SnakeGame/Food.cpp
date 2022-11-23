@@ -34,6 +34,7 @@ void AFood::Interact(AActor* Interactor, bool bIsHead)
 			Snake->AddSnakeElement();
 			this->RespawnFood();
 			score = score + 100;
+			sec = 30;
 		}
 	}
 }

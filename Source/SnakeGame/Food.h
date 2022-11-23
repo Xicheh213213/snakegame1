@@ -31,6 +31,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnyWhere)
 		FVector2D endCoords;
 	UPROPERTY(BlueprintReadWrite, EditAnyWhere)
-		int score = 0;
+		int score;
+	UPROPERTY(BlueprintReadWrite, EditAnyWhere)
+		int sec = 30;
 	
 };
